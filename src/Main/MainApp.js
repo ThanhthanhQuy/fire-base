@@ -3,7 +3,7 @@ import React, {Component} from 'react'
 import {BrowserRouter,Switch, Route, } from 'react-router-dom'
 import Login from '../Login/Login'
 
-class MainApp extends Component {
+class   MainApp extends Component {
     render() {
         return (
             <BrowserRouter>

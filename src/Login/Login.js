@@ -11,7 +11,7 @@ class Login extends Component {
                     <br />
                     <input className='center w-1-3 p-5 mt-10' placeholder='PassWord'/>
                     <br />
-                    <button className='center submit mt-10 p-5'>Login</button>
+                    <button className='center submit mt-20 p-5'>Login</button>
                 </div>
 
             </div>
