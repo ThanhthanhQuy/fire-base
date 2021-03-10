@@ -1,0 +1,10 @@
+const functions = require('firebase-functions')
+const create = require('./create')
+const read = require('./read')
+const update = require('./update')
+const deleteData = require('./delete')
+
+exports.createData = functions.https.onRequest(create)
+exports.readData= functions.https.onRequest(read)
+exports.updateData= functions.https.onRequest(update)
+exports.deleteData= functions.https.onRequest(deleteData)

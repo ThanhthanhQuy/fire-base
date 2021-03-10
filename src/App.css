@@ -40,10 +40,23 @@
   margin: auto;
 }
 
+.link {
+  color: #039be5;
+  cursor: pointer;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+
 .submit {
-  border:  1px solid gray;
+  border: 1px solid gray;
   border-radius: 5px;
-  background-color:cornflowerblue;
+  background-color: cornflowerblue;
 }
 
 .flex {
