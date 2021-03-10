@@ -59,3 +59,8 @@ exports.getData = functions.https.onRequest(async (request, response) => {
     const res = await App.firestore().collection('profiles').doc('users').get();
     response.send(res.data())
 });
+
+// exports.updateData = functions.https.onRequest(async (request, response) => {
+//     const res_update = await App.firestore().collection('profiles').doc('users').update({country : 'VN'});
+//     response.send(res_update.data())
+// });
